@@ -1,0 +1,6 @@
+framework module Pods_BaseMacro_Example {
+  umbrella header "Pods-BaseMacro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
