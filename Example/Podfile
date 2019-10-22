@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BaseMacro_Example' do
+  pod 'BaseMacro', :path => '../'
+
+  target 'BaseMacro_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
