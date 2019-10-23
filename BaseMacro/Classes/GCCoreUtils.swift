@@ -53,7 +53,8 @@ class CoreUtils: NSObject {
         button.addTarget(taget, action: sel, for: UIControl.Event.touchUpInside)
 //        button.contentMode = UIView.ContentMode.scaleToFill
         let backItem = UIBarButtonItem(customView: button)
-        backItem.imageInsets = UIEdgeInsetsMake(0, -10, 0, 0)
+        //(0, -10, 0, 0)
+        backItem.imageInsets = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
         
         return backItem;
     }
@@ -82,21 +83,21 @@ class CoreUtils: NSObject {
     
     
     /*计算字符串宽度*/
-    static func getLabWidth(labelStr:String,font:UIFont,height:CGFloat) -> CGFloat
-    {
-        
-        let statusLabelText: NSString = labelStr as NSString
-        
-        let size = CGSize(width: 900, height: height)
-        
-        let dic = NSDictionary(object: font, forKey: NSFontAttributeName as NSCopying)
-        
-        let strSize = statusLabelText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [String : AnyObject], context: nil).size
-        
-        return strSize.width
-        
-   
-        
-    }
+//    static func getLabWidth(labelStr:String,font:UIFont,height:CGFloat) -> CGFloat
+//    {
+//
+//        let statusLabelText: NSString = labelStr as NSString
+//
+//        let size = CGSize(width: 900, height: height)
+//
+//        let dic = NSDictionary(object: font, forKey: "font" as NSCopying)
+//
+//        let strSize = statusLabelText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [String : AnyObject], context: nil).size
+//
+//        return strSize.width
+//
+//
+//
+//    }
    
 }

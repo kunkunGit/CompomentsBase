@@ -40,7 +40,7 @@
 		607FACE51AFB9204008FA782 /* BaseMacro_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseMacro_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F887652357A850FD8FE8DD7 /* BaseMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BaseMacro.podspec; path = ../BaseMacro.podspec; sourceTree = "<group>"; };
+		7F887652357A850FD8FE8DD7 /* BaseMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BaseMacro.podspec; path = ../BaseMacro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11EB6DC4439E45E93F4F363 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ABDD20EA4D0BD3D3790846EE /* Pods_BaseMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8F02138B9EBF636926C526 /* Pods-BaseMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseMacro_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseMacro_Tests/Pods-BaseMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
